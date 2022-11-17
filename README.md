@@ -1,15 +1,14 @@
 # Book-Search-Engine
 
-
-
-
 # Description
-
-
+This application is a fully functioning Google Books API search engine, 
+It was built with a RESTful API, and refactor it to be a GraphQL API built with Apollo Server.
+The app was built using the MERN stack, with a React front end, MongoDB database,
+ and Node.js/Express.js server and API.
 
 ## Mock-Up
 
-https://courses.bootcampspot.com/courses/1490/files/2039313/preview
+
 ## Table of Contents
   * [Description](#description)
   * [Installation](#installation)
@@ -31,7 +30,7 @@ LICENSE
 
 
 # Questions
-please contact Jay1194@github.com
+please contact https://github.com/Jay1194
 
 # Contributing
 Jay1194
@@ -41,5 +40,5 @@ Jay1194
 
 * 
 
-* 
+* https://github.com/Jay1194
 
