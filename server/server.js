@@ -5,11 +5,9 @@ const db = require('./config/connection');
 const { ApolloServer } = require('apollo-server-express');
 const { authMiddleware } = require ('./utils/auth');
 const { typeDefs, resolvers } = require('./schemas');
-const { startSession } = require('mongoose');
-const { start } = require('repl');
 
 const app = express();
-const PORT = process.env.PORT || 11000;
+const PORT = process.env.PORT || 3001;
 const server = new ApolloServer({
   typeDefs, resolvers, context: authMiddleware
 });
@@ -17,7 +15,6 @@ const server = new ApolloServer({
 
 server.applyMiddleware({ app });
  
-
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
